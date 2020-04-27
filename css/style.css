@@ -70,8 +70,8 @@ p {
   background-position: center;
   border-radius: 4px;
   padding: 15px 30px;
-  max-width: 800px;
-  width: 80%;
+  width: 90%;
+  max-width: 600px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -119,6 +119,7 @@ p {
   background-position: center;
 }
 .info {
+  width: 100px;
   text-align: left;
 }
 .info h2 {
@@ -128,4 +129,17 @@ p {
 .info p {
   color: #ffffffaa;
   text-transform: lowercase;
+}
+
+@media (max-width: 540px) {
+  .track {
+    padding: 20px 10px;
+  }
+  .artist {
+    width: 70px;
+    height: 70px;
+  }
+  .info h2 {
+    font-size: 22px;
+  }
 }
