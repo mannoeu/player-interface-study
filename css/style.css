@@ -1,0 +1,131 @@
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  width: 10px;
+  background: #f1f1f1aa;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(22, 5, 34);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 100%;
+}
+button {
+  cursor: pointer;
+}
+input {
+  padding: 5px 15px;
+  border: none;
+  margin-top: 10px;
+}
+h2,
+p {
+  letter-spacing: 2px;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  padding: 10px 0px;
+}
+
+.track {
+  background: rgba(0, 0, 0, 0.12);
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  padding: 15px 30px;
+  max-width: 800px;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.artist01 {
+  background: url(../assets/art01.gif), no-repeat;
+}
+.artist02 {
+  background: url(../assets/art02.webp), no-repeat;
+}
+.artist03 {
+  background: url(../assets/art03.gif), no-repeat;
+}
+.artist04 {
+  background: url(../assets/art04.gif), no-repeat;
+}
+.artist05 {
+  background: url(../assets/art05.gif), no-repeat;
+}
+.artist06 {
+  background: url(../assets/art06.gif), no-repeat;
+}
+.artist07 {
+  background: url(../assets/art07.gif), no-repeat;
+}
+.artist08 {
+  background: url(../assets/art08.gif), no-repeat;
+}
+.artist09 {
+  background: url(../assets/art09.gif), no-repeat;
+}
+.artist10 {
+  background: url(../assets/art10.gif), no-repeat;
+}
+
+.artist {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.12);
+  margin-right: 20px;
+  background-size: cover;
+  background-position: center;
+}
+.info {
+  text-align: left;
+}
+.info h2 {
+  color: #fff;
+  font-size: 35px;
+}
+.info p {
+  color: #ffffffaa;
+  text-transform: lowercase;
+}
